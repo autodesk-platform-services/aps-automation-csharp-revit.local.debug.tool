@@ -1,4 +1,5 @@
-﻿using Autodesk.Revit.DB;
+using System.Runtime.Versioning;
+using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using DesignAutomationFramework;
 using System.Collections.Generic;
@@ -6,6 +7,8 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using System.Xml.Linq;
+
+[assembly: SupportedOSPlatform("windows")]
 
 namespace AutomationServiceHandler
 {
