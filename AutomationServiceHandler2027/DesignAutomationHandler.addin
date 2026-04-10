@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>AutomationServiceHandler</Name>
+    <Assembly>.\DesignAutomationHandler.dll</Assembly>
+    <AddInId>E4F8B2A1-3C7D-4E9B-8F1A-2D6C4E8B0A5F</AddInId>
+    <FullClassName>AutomationServiceHandler.AutomationServiceHandlerApp</FullClassName>
+    <Text>AutomationServiceHandler (DesignAutomationHandler)</Text>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Description>"AutomationServiceHandler, formerly DesignAutomationHandler For Local Debugging of APS Revit Automation API"</Description>
+    <VendorId>Autodesk</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

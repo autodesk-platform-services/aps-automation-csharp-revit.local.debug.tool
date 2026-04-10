@@ -3,8 +3,9 @@
 ![Platforms](https://img.shields.io/badge/Plugins-Windows-lightgray.svg)
 ![.NET](https://img.shields.io/badge/.NET%20Framework-4.8-blue.svg)
 ![.NET](https://img.shields.io/badge/.NET%20-8.0-blue.svg)
+![.NET](https://img.shields.io/badge/.NET-10.0-blue.svg)
 
-[![Revit](https://img.shields.io/badge/Revit-2023|2024|2025|2026-lightblue.svg)](http://aps.autodesk.com/)
+[![Revit](https://img.shields.io/badge/Revit-2023|2024|2025|2026|2027-lightblue.svg)](http://aps.autodesk.com/)
 
 # Description
 
@@ -25,10 +26,12 @@ See [step-by-step video](https://www.youtube.com/watch?v=i0LJ9JOpKMQ)
 
 ## Compile and Load on Revit
 
-1. Build the solution `AutomationServiceHandler`, compiling AutomationServiceHandler for Revit 2023 (`AutomationServiceHandler2023`), Revit 2024 (`AutomationServiceHandler2024`), Revit 2025 (`AutomationServiceHandler2025`), and Revit 2026 (`AutomationServiceHandler2026`)
-    > Revit Automation API currently supports Revit 2023. 2024, 2025 and 2026.
+1. Build the solution `AutomationServiceHandler`, compiling AutomationServiceHandler for Revit 2023 (`AutomationServiceHandler2023`), Revit 2024 (`AutomationServiceHandler2024`), Revit 2025 (`AutomationServiceHandler2025`), Revit 2026 (`AutomationServiceHandler2026`), and Revit 2027 (`AutomationServiceHandler2027`)
+    > Revit Automation API currently supports Revit 2023, 2024, 2025, 2026, and 2027.
 
-2. Copy/paste the `AutomationServiceHandler.addin` into the "Addins" folder `C:\ProgramData\Autodesk\Revit\Addins\XXXX\`, where `XXXX` is the Revit version (e.g. 2023, 2024, 2025, 2026) you intend to run.
+    > `AutomationServiceHandler2027` targets **.NET 10** (`net10.0-windows`) to match the Revit 2027 API. Install the [.NET 10 SDK](https://dotnet.microsoft.com/download) (or a Visual Studio version that includes it) before building that project.
+
+2. Copy/paste the `AutomationServiceHandler.addin` into the "Addins" folder `C:\ProgramData\Autodesk\Revit\Addins\XXXX\`, where `XXXX` is the Revit version (e.g. 2023, 2024, 2025, 2026, 2027) you intend to run.
 
     > **Note.** Currently, we remained old brand name in the name of assembly and *.addin file during the transition period. Will change them in the future.
 
